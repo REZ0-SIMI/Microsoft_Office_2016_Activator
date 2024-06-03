@@ -1,0 +1,10 @@
+score = int(input("enter your exam score: "))
+
+if score >= 90:
+    print("excellent ! you eared an A !")
+elif score >= 80:
+    print("great job! you earned a B!")
+elif score <= 30:
+    print("sorry. you failled")
+else:
+    print("keep practicing. you can do better!")
